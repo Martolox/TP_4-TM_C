@@ -1,0 +1,27 @@
+package org.unrn.ejercicio5;
+
+public class RemeraImportada extends Remera {
+    private final double recargo = 0.03;
+    private final double extra = 0.05;
+    private final double ganancias = 0.25;
+
+    public RemeraImportada(double precio) {
+        super(precio);
+
+    }
+
+    @Override
+    public double recargo() {
+        return (1 + recargo);
+    }
+
+    @Override
+    public double extra() {
+        return (1 + extra);
+    }
+
+    @Override
+    public double ganancias() {
+        return (1 + ganancias);
+    }
+}
