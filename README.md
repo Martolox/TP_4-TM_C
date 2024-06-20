@@ -1,9 +1,9 @@
 # TP 5 - Template Method y Composite
 
-- Template method
-    - Propósito: define el esqueleto de un algoritmo en la superclase pero permite que las subclases sobrescriban pasos del algoritmo sin cambiar su estructura.
-- Composite:
-    - Propósito: permite componer objetos en estructuras de árbol y trabajar con esas estructuras como si fueran objetos individuales.
+### Template method
+- Define el esqueleto de un algoritmo en la superclase pero permite que las subclases sobrescriban pasos del algoritmo sin cambiar su estructura.
+### Composite:
+- Permite componer objetos en estructuras de árbol y trabajar con esas estructuras como si fueran objetos individuales.
 
 ## 1. Composite: Empresa con Empleados
 Se debe calcular el monto salarial. La empresa los siguientes roles: directores, gerentes, mandos medios, líderes de proyecto y empleados regulares. Todos tienen gente a su cargo, salvo los empleados regulares.
